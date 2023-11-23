@@ -2,6 +2,7 @@
 n=input()
 
 d=int(n,2)
+print(d)
 c=0
 while d>0:
     if d%2==0:

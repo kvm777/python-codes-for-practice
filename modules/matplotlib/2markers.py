@@ -3,7 +3,7 @@ import numpy as np
 
 ''' 
 marker notations...
-'o'	    Circle	
+'o'	    Circle 
 '*'	    Star	
 '.'	    Point	
 ','	    Pixel	

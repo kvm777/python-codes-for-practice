@@ -1,10 +1,13 @@
-l=list(map(str,input().split()))
-n1=l[0]
-n2=l[2]
+a,b,c=map(str,input().split())
 n3=[]
 
-for i in range(len(n1)):
-    if n1[i]==n2[i]:
+"""
+input: 10101101 XOR 11101001
+output: 01000100
+"""
+
+for i in range(len(a)):
+    if a[i]==c[i]:
         n3.append(str(0))
     else:
         n3.append(str(1))

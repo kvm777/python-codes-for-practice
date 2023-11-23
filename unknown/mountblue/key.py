@@ -11,12 +11,6 @@ def solution(message,key):
     return l
 
 
-
-
-
-
-
-
 message=input()
 key=int(input())
 

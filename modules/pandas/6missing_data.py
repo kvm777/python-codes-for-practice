@@ -13,21 +13,29 @@ df = pd.DataFrame(d)
 print(df)
 print()
 
-#fething horizental columns data with no missing  
+#fething horizental rows data with no missing  
 #by dafault axis=0
+# axis = 0 is horizentally
 print(df.dropna(axis=0))
 print()
 
 #fething vertical columns data with no missing
+# axis = 1 is for vertically
 print(df.dropna(axis=1))
+print()
+
+print("mean of 2-2 semester", df["2-2 Semester"].mean())
 print()
 
 print(df["2-2 Semester"].fillna(df["2-2 Semester"].mean()))
 print()
 
+# fill the data missing with thw given value.
 print(df.fillna(80))
 df.dropna()     #drop the rows with missing data
 
 df.dropna(inplace=True)
 
 print(df)
+
+

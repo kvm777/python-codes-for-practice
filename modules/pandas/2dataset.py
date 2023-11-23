@@ -4,6 +4,8 @@
 
 import pandas as pd
 import __future__
+# In a nutshell, __future__ allows you to use newer Python features even in older versions of Python, making your code more compatible and future-proof.
+
 #read the existing dataset... 
 #pd.read_excel for excel file
 d = pd.read_csv("C:\\Users\\korad\\Desktop\\python examples\\modules\\pandas\\BILLIONAIRES.csv")

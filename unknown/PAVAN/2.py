@@ -1,4 +1,5 @@
 
+def function(input1,input2):
     #write code here
     l=input1
     n=input2
@@ -10,10 +11,5 @@
             c+=1
 
     return c
-
-
-
-    
-
 
 

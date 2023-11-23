@@ -8,4 +8,11 @@ for i in range(n+1,m+1):
 
 print(c)
 
+"""
+exploination: 4, 8 are the 2 multiples of 4
 
+input:  3
+        10
+        4
+output: 2
+"""

@@ -1,6 +1,6 @@
     
 
-
+def anagram(input1,input2):
         #read only region 
         s1=input1
         s2=input2
@@ -10,6 +10,8 @@
             return 'no'
 
 
-
+s1 = input()
+s2 = input()
+print(anagram(s1,s2))
 
         

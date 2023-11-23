@@ -2,6 +2,9 @@ import pandas as pd
 '''
 loc and iloc
 
+loc --- Label Based indexing
+iloc --- Integer Based indexind
+
 using loc[] (stop index included..)
 dataframe.loc[row_num]
 dataframe.loc[row_num, [column_name,...] ]
@@ -24,15 +27,21 @@ d = pd.read_csv("C:\\Users\\korad\\Desktop\\python examples\\modules\\pandas\\BI
 #creating DataFrame
 df = pd.DataFrame(d)
 
+print(df.head(11))
+print()
+
 print(df.loc[1])
 print()
 
+print("print the index-10 values with defined  ol names")
 print(df.loc[10,["NAME","AGE", "SOURCE"]])
 print()
 
+print("loc includes the stop index we are defining")
 print(df.loc[0:5])      #stop index including...
 print()
 
+print("iloc excludes the stop index we are defining")
 print(df.iloc[0:5])     #stop index excluding...
 print()
 
@@ -47,6 +56,8 @@ print()
 
 
 #iloc[]......
+
+print("iloc...")
 
 print(df.iloc[0,4])
 print()

@@ -25,40 +25,53 @@ d = pd.read_csv("C:\\Users\\korad\\Desktop\\python examples\\modules\\pandas\\BI
 df = pd.DataFrame(d)
 
 #df.head() to get the top 5 records of the table
+print("df.head() to get the top 5 records of the table")
 print(df.head()) 
 print()
 
 #by deault head() contains top 5 records..
+print("by deault head() contains top 5 records..")
 print(df.head(7))
 print()
 
 #df.tail() to get the last records of dataframe..... by default 5 
+print("df.tail() to get the last records of dataframe..... by default 5")
 print(df.tail())
 print()
+
 print(df.tail(2))
 print()
 
 #df.describe() it would give clear information of the data..
+print("df.describe() it would give clear information of the data..")
 print(df.describe())
 print()
 
-#gives the shape of dataframe..
+#df.shape() gives the shape of dataframe..
+print("df.shape() gives the shape of dataframe..")
 print(df.shape)
 
 #slicing..
+print("slicing...")
 print(df[:10:1])
 print()
+
 
 print(df["NAME"])
 print()
 
 #using double square square braces for multiple column records like 2D....
+# df[[col1, col2, col3]][start:end:difference]
 print(df[["NAME","AGE"]][:10:2])
-
 print()
+
 
 for i in df.iterrows():
     print(i)
 
 print()
+
+
+for i in df.itertuples():
+    print(i)
 

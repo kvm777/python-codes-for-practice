@@ -8,7 +8,7 @@ output:
 4
 [1, 2, 8, 16]
 '''
-
+[]
 n=int(input())
 l=list(map(int,input().split()))
 c=0

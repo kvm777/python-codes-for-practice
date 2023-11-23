@@ -13,3 +13,10 @@ def grtsum(n):
 
 x=int(input())
 print(grtsum(x))
+
+
+"""
+explination: 1+5 =6, 2+3+4=9 --->> 9>6
+input: 12345
+Output: 9
+"""

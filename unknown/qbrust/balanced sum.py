@@ -6,6 +6,7 @@ def balancedSum(arr):
         y=sum(s[i+1:])
         if x==y:
             return i
+    return -1
 
 
 
