@@ -36,5 +36,7 @@ nxt b primes of given number (a)
 input: 17 5
 Output: [19, 23, 29, 31, 37]
 
+input: 4 7
+output: [5, 7, 11, 13, 17, 19, 23 ]
 
 """

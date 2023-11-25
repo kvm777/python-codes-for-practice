@@ -9,3 +9,10 @@ def strips(l,n):
 
 l=["1Au","4uF","5qx","7Uv","9sY","8lT","2Sk","6NN","3f3"]
 strips(l,len(l))
+
+
+""""
+input: l[], len(l)
+output: st1: "12345678" , str2: "ASfuqNUls"
+
+"""

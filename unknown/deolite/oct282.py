@@ -8,5 +8,7 @@ main()
 
 '''
 next Perfect Square of a given number
-'''
 
+i/p : 6
+o/p : 9
+'''
