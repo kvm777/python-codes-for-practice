@@ -2,6 +2,7 @@ s=input()
 
 v='aeiouAEIOU'
 c=1
+x1=0
 for i in range(len(s)):
     for j in range(len(s)):
         x=s[i:j+1]
@@ -15,3 +16,11 @@ for i in range(len(s)):
 
 print(c)
         
+
+"""
+
+ashok
+mahesh
+
+sh
+"""

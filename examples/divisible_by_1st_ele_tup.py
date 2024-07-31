@@ -5,3 +5,5 @@ for e in d:
        print("no")
     else:
         print("yes")
+
+

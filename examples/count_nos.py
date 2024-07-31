@@ -1,5 +1,8 @@
 
 #count the no of digits in string.....
+# input: h5e3ll04ow87or33ld
+# output: 8
+
 
 a=input()
 
@@ -11,3 +14,5 @@ for i in a:
         c+=1
 
 print(c)
+
+

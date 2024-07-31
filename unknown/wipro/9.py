@@ -25,7 +25,7 @@ s = input()
 v = "aeiouAEIOU"
 idx=[]
 vow=[]
-vow = vow[::-1]
+# vow = vow[::-1]
 
 for i in range(len(s)):
     if s[i] in v:
@@ -35,7 +35,7 @@ s1=""
 for i in range(len(s)):
     if i in idx:
         s1+=vow[-1]
-        vow.pop(-1)
+        vow.pop()
     else:
         s1+=s[i]
 

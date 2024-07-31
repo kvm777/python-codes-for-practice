@@ -1,5 +1,9 @@
 
 #capitalise the repeated letters
+# input: "kiran KAntH"
+# output: "KirAN KANth"
+
+
 
 s1,s2 = map(str,input().split())
 

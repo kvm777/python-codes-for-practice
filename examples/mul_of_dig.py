@@ -1,3 +1,5 @@
+# product of all digits in num
+
 n=int(input())
 l=list(str(n))
 c=1
